@@ -1,0 +1,76 @@
+body{
+    background-color: #EFF4FF;
+    /* background-image: linear-gradient( #eff4ff,white    ); */
+    background-repeat: none;
+    background-attachment: fixed;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 5rem;
+}
+
+.title{
+    font-family: "roboto";
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.navbutton{
+    font-family: "roboto";
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+nav{
+    float: right;
+    word-spacing: 20px;
+}
+
+.intro{
+    font-family:'Francois One','roboto';
+    font-size: 40px;
+    /* font-weight: 100; */
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 5rem;
+    padding-top: 100px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: rgb(68, 68, 68);
+    padding-bottom: 50px;
+}
+
+.display{
+    /* padding-top: 100px; */
+    padding-top: 30px;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    float: inline-start;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line2{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-left: 18rem;
+    margin-right: 18rem;
+    float: inline-start;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+
+/* .grid-container{
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+    -ms-grid-column-align: center;
+}
+.grid-item{
+
+} */
