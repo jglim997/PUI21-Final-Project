@@ -4,8 +4,8 @@ body{
     /* background-image: linear-gradient( #eff4ff,white    ); */
     /* margin-left: 13rem;
     margin-right: 13rem; */
-    margin-left: 13rem;
-    margin-right: 13rem;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 4rem;
 }
 
@@ -21,14 +21,9 @@ body{
 .navbutton{
     font-family: "roboto";
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
     color: rgb(68, 68, 68);
     font-weight: 500;
-}
-
-nav{
-    float: right;
-    word-spacing: 20px;
 }
 
 .center{
@@ -46,11 +41,42 @@ nav{
     text-transform: uppercase;
     text-align: center;
     padding-top: 40px;
-    padding-left: 14rem;
-    padding-right: 14rem;
     color: rgb(68, 68, 68);
     padding-bottom: 50px;
 }
+
+.fade-in-text {
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
 .type{
     display: flex;
@@ -93,20 +119,26 @@ h1{
     }
 }
 
+.fullw{
+    width: 100%;
+}
 
-.display{
+.padding{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+/* .display{
     padding-top: 30px;
-    /* margin-left: 18rem; */
     margin-right: 18rem;
     margin-left: 18rem;
     float: inline-start;
     display: flex;
     justify-content: space-evenly;
-}
+} */
 
-.line2{
-    /* margin-left: 50px;
-    margin-right: 50px; */
+/* .line2{
     margin-left: 18rem;
     margin-right: 18rem;
     float: inline-start;
@@ -114,7 +146,7 @@ h1{
     justify-content: space-evenly;
     padding-top: 10px;
     padding-bottom: 75px;
-}
+} */
 footer{
     font-family: 'roboto', sans-serif;
     font-weight: normal;

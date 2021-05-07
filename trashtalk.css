@@ -1,20 +1,11 @@
 
 body{
-    /* margin-left: 14%;
-    margin-right: 14%; */
     margin-left: 13rem;
     margin-right: 13rem;
     margin-top: 4rem;
-    /* margin-top: 10px; */
     margin-bottom: 20px;
-    /* background-color: #FFF9F6; */
-    /* background-color:rgb(247, 247, 247); */
-    /* background-color:rgb(247, 253, 255); */
     background-color:white;
     color: black;
-    /* background-image: url(images/Group\ 192.png); */
-    /* background-repeat: no-repeat; */
-    /* background-position: top; */
 }
 
 .logo{

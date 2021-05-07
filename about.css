@@ -1,9 +1,11 @@
 body{
-    margin-left: 13rem;
+    /* margin-left: 13rem;
     margin-right: 13rem;
     margin-top: 4rem;
-    margin-bottom: 20px;
-    /* background-color: #EFF4FF; */
+    margin-bottom: 20px; */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4rem;
     background-color: white;
     color: black;
 }
@@ -24,10 +26,12 @@ body{
     font-weight: 500;
 }
 
-nav{
+/* nav{
     float: right;
     word-spacing: 20px;
-}
+} */
+
+
 /* .navbar{
     float: right;
     word-spacing: 20px;
