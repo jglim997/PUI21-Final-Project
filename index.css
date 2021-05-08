@@ -1,19 +1,14 @@
 body{
-    /* background-color: #EFF4FF; */
     background-color: white;
-    /* background-image: linear-gradient( #eff4ff,white    ); */
-    /* margin-left: 13rem;
-    margin-right: 13rem; */
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 4rem;
 }
 
-
 .title{
     font-family: "roboto";
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     color: rgb(68, 68, 68);
     font-weight: 700;
 }
@@ -21,7 +16,7 @@ body{
 .navbutton{
     font-family: "roboto";
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     color: rgb(58, 58, 58);
     font-weight: 500;
 }
@@ -37,7 +32,6 @@ body{
 .intro{
     font-family:'Francois One','roboto';
     font-size: 25px;
-    /* font-weight: 100; */
     text-transform: uppercase;
     text-align: center;
     padding-top: 40px;
@@ -128,25 +122,6 @@ h1{
     padding-right: 2%;
 }
 
-
-/* .display{
-    padding-top: 30px;
-    margin-right: 18rem;
-    margin-left: 18rem;
-    float: inline-start;
-    display: flex;
-    justify-content: space-evenly;
-} */
-
-/* .line2{
-    margin-left: 18rem;
-    margin-right: 18rem;
-    float: inline-start;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    padding-bottom: 75px;
-} */
 footer{
     font-family: 'roboto', sans-serif;
     font-weight: normal;
